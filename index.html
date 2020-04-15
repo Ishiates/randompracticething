@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+<title>lil java experiments</title>
+<script type="text/javascript" src="thething.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 id="beep">Is your calculator broken?</h1>
+        <h2>Well you came to the right place </h2>
+    
+    
+    
+    <button onclick="buttonAddition()">Addition</button>
+    <p id="sum"></p>
+    
+    <button onClick="buttonSubtraction()">Subtraction</button>
+    <p id="difference"></p>
+    
+    <button onClick="buttonMultiply()">Multiplication</button>
+    <p id="product"></p>
+    
+    <button onClick="buttonDivide()">Division</button>
+    <p id="quotient"></p>
+    
+    <br><br>
+    <br>
+    
+    <h1>Enter a Password</h1>
+<h2>To get a secret message!!</h2>
+<h3>(Currently 3 different passwords work.)</h3>
+    
+    <form id="form" name="passboxForm"> <!-- Hi can you fix this plz so it works??? Love, past sumata --> <!-- I fixed it Love, present sumata -->
+    <input type="text" id="passbox" name="passbox" placeholder="password...." autocomplete="off">    <br> <br>
+    <input type="button" id="passubmit" value="Enter!!!!!!" onclick="passwordEntered()">
+        </form>
+    <br><br>
+    <div id="h">
+    
+    <p id="hamilton"></p>
+
+    </div>
+    <br><br>
+    <div id="k">
+    
+        <p id="kotlc"></p>
+    </div>
+    <br><br>
+    <div id="s">
+    <p id="sumaita"></p>
+    </div>
+    <br><br>
+    
+    <h1>Random math yay!</h1>
+    <h2>every time you refresh the page, a new math question should generate when you press the button below.</h2>
+    
+    <div id="mathQuestionGenerator">
+    <input type="button" onclick="generateQuestion()" value="click on this to get your math question">
+    </div>
+    <br><br>
+    <p id="number">The question will go here.</p>
+    <br>
+       <div id="answer-right-or-wrong">
+        <h4 id="results"><b></b></h4>
+        <input type="button" value="press this to refresh" onclick="refresh()">
+    </div>
+    
+    <div id="submit-area">
+    <input type="text" placeholder="Write your answer here.." autocomplete="off" id="answer"> <br> <br> 
+    <input type="button" value="Submit your answer here." onclick="checkAnswer()">
+        <p>(When you submit, you can't go back. Check your answers!)</p>
+    </div>
+    <br><br>
+    
+    <h1>Are you lonely???</h1>
+    <h2>Well we have a friend right here!!</h2>
+    <p id="chatLog">- - C H A T - -<br><br></p>
+        <input id="userBox" type="text" onkeydown="if (event.keyCode == 13) {talk()}">
+    
+    <br><br><br><br>     
+    </body>
+</html>
