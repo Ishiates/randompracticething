@@ -200,12 +200,29 @@ function refresh(){
         "Hello." : "oh hi",
         "Hi." : "oh hello",
          "how are you?" : "tired",
+	      "How are you?" : "tired",
+	       "How are you" : "tired",
+	       "how are you" : "tired",
+	       "I" : "J",
 		"i" : "j",
 	    "screw you" : "that's rude uwu",
+	       "Screw you" : "that's rude uwu",
 		"do you like to draw" : "I mean I guess, I'm not even human tho so how can I",
+	       "Do you like to draw" : "idk",
+	       "Do you like to draw?" : "idk",
+	       "Can you draw" : "can a fish drown?",
+	       "can you draw?" : "can a fish drown?"
+		"Can you draw?" : "can a fish drown?",
 		"can you draw" : "can a fish drown?",
 		"why are you so mean" : "aw I didn't mean to be mean :((((",
+	       "Why are you so mean" : "aw I didn't mean to be mean :((((",
+	       "Why are you so mean?" : "aw I didn't mean to be mean :((((",
+		"why are you so mean?" : "aw I didn't mean to be mean :((((",
 		"bye" : "oh ok bye",
+	       "Bye" : "oh ok bye",
+	       "Bye." : "oh ok bye",
+	       "bye." : "oh ok bye",
+	       "Bai" : "bai uwu",
 		"bai" : "bai uwu",
 		":3" : "owo",
 		"uwu" : "uwu",
@@ -226,7 +243,7 @@ function refresh(){
 		    }, 700);
                 } else {
   		    setTimeout(() => {
-                    document.getElementById("chatLog").innerHTML += "Sorry dude, I don't know how to respond to that because the person who programmed me SUCKS <br>";
+                    document.getElementById("chatLog").innerHTML += "Sorry, I don't know how to respond to that.<br>";
 		    }, 700);
                 }                                                                       
             } 
