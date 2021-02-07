@@ -8,9 +8,7 @@ if (name === "no" || name === "No" || name === "yes" || name === "Yes"){
     document.write("You forgot to write your name..");
 } else if (name === "hello" || name === "hi" || name === "Hello" || name === "Hi") {
     document.write("Well, hello to you too.");
-} else if (name === "Sumaita" || name === "sumaita") {
-    document.write("Welcome back, Sumaita");
-} else if (name === null) {
+}  else if (name === null) {
     document.write("bro you didn't write anything");
 }else {
     document.write("Welcome, " + name + "!");
@@ -61,13 +59,7 @@ function passwordEntered() {
     if (passAnswer === "hamilton" || passAnswer === "Hamilton" ){
     document.getElementById("hamilton").innerHTML = "entering this password probably makes you think you'll get something about Alexander Hamilton. <br> And that's because you're right. <br><i> Pardon me, are you Aaron Burr, sir? <br> No. <br> Alright, thank you sir! <br> (history never happens and hamilham's story ends here) </i>";
     document.getElementById("h").style.visibility = "visible";
-    } else if (passAnswer === "kotlc" || passAnswer === "KOTLC" || passAnswer === "Keeper of the Lost Cities" || passAnswer === "keeper of the lost cities"){
-    document.getElementById("kotlc").innerHTML = "Oh, you know me so well. I'll be using this to rant about people who hate Sophie, because why??? She's bound to make mistakes, and yes some of them might be bad, but look at Keefe! <br> He can be super gullible sometimes, joining the Neverseen to end up learning <i>almost</i> nothing, and brought in 2 caches only to find out <i>months</i> later that they're fake!!<br> Also, Sophie ISN'T OP. Incase you haven't noticed, she usually spends most battles getting hurt or running away from something, since her abilities are blocked by the Neverseens' stupid caps. <br> The fact that she has no elemental abilities is a BIG disadvantage, which is a great time for background characters to step in. <br> WHY DO YOU HATE HER??";
-    document.getElementById("k").style.visibility = "visible";
-    }  else if (passAnswer === "sumaita" || passAnswer === "Sumaita"){
-    document.getElementById("s").style.visibility = "visible";
-    document.getElementById("sumaita").innerHTML = "a little weird of you to enter in <i>my name</i>, but sure.";
-    }  
+    } 
 }
 
 
